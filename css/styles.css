@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 530;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.logo-container span{
+    color:rgb(251,193,33);
+}
+.logo-container h1{
+    font-weight: bold;
+}
+ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 40px;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+}
+ ul li:hover{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer; 
+}
+.login-items{
+    display: flex;
+    gap:40px;
+}
+select{
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+.signin-container button{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.signup-container button{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;
+}
+.signup-container button:hover{
+    opacity: 0.8;
+    background-color: rgb(5,5,5) ;
+   
+}
+ /*==========================          sub container      ================================================================*/  
+.sub-container{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.leftheadingitems h2{
+font-size: 90px;
+font-weight: bolder;
+margin: 45px;
+}
+.leftheadingitems p{
+    color: rgb(141, 141, 141);
+    margin:45px;
+}
+.leftbuttonitems{
+    display: flex;
+    gap:20px;
+    margin: 45px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftbuttonitems button{
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(5,5,5) ;
+    cursor: pointer;  
+}
+.leftbuttonitems button:hover{
+    opacity: 0.8;
+    background-color: rgb(5,5,5) ;
+}
+.buttonplay{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.rightsubcontaineritems{
+    padding: 10px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.rightsubcontaineritems img{
+    padding-right: 25px;
+    padding: auto;
+    margin: auto;
+    width: 610px;
+}
+.footer-items h3{
+    text-align: start;
+    padding: 45px;
+}
+.footer-imgs{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    margin: auto;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .sub-container {
+     flex-wrap: wrap;
+     }
+   }
+   @media only screen and (max-width: 1200px) {
+     .sub-container {
+      flex-wrap: wrap;
+      }
+    }
+    @media only screen and (max-width: 500px) {
+     .sub-container {
+      flex-wrap: wrap;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+     .rightsubcontaineritems img {
+      width: 400px;
+      }
+    }
